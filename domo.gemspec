@@ -6,7 +6,7 @@ require './lib/domo/version'
 
  
 Gem::Specification.new do |s|
-  s.name        	 = "domo"
+  s.name        	 = "domo-rb"
   s.version     	 = Domo::VERSION
   s.platform    	 = Gem::Platform::RUBY
   s.date			 = Time.now.utc.strftime("%Y-%m-%d")

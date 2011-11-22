@@ -2,7 +2,7 @@
 Utility functions for domain strings
 
 ### Installation
-	gem install domo
+	gem install domo-rb
 
 
 ### Usage
