@@ -7,7 +7,7 @@ Utility functions for domain strings
 
 ### Usage
     >> require 'domo'
-	=> 'true'
+    => 'true'
 
     >> Domo.canonize "www.ebay.com"
     => "ebay.com"
@@ -24,9 +24,9 @@ Utility functions for domain strings
 
 ### Testing Notes
 Install development dependencies with
-	bundle install
+    bundle install
 And run the tests with:
-	rake spec
+    rake spec
 
 
 Copyright (c) 2011 Gur Dotan, released under the MIT license.
