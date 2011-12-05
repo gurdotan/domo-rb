@@ -9,13 +9,13 @@ Utility functions for domain strings
     >> require 'domo'
     => 'true'
 
-    >> Domo.canonize "www.ebay.com"
+    >> Domo.canonicalize "www.ebay.com"
     => "ebay.com"
 
-    >> Domo.canonize "boats.ebay.co.uk"
+    >> Domo.canonicalize "boats.ebay.co.uk"
     => "ebay.co.uk"
 
-    >> Domo.canonize "edition.cnn.com"
+    >> Domo.canonicalize "edition.cnn.com"
     => "cnn.com"
 
     >> Domo.strip_url "http://www.cnn.com/news/last-week/main.html"

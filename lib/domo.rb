@@ -8,12 +8,12 @@ module Domo
 
   REGEX = /^(#{GENERIC_TOP_LEVEL_DOMAINS.join("|")}|#{GEO_TOP_LEVEL_DOMAINS.join("|")})$/
 
-  # Returns a canonized domain for a given domain string
+  # Returns a canonicalized domain for a given domain string
   # Examples:
   #   "www.cnn.com"           => "cnn.com"
   #   "books.ebay.co.uk"      => "ebay.co.uk"
   #   "news.nytimes.com:3000" => "nytimes.com"
-  def self.canonize(domain)
+  def self.canonicalize(domain)
     parts = domain.split(":")[0].split(".").reverse
 
     check_further = true
