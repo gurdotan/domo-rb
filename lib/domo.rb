@@ -29,6 +29,11 @@ module Domo
     return parts[0..i].reverse.join(".")
   end
 
+  def self.canonize(domain)
+    $stdout.puts "Domo#canonize deprecated.  Please use Domo#canonicalize instead."
+    canonicalize(domain)
+  end
+
   def strip_url(url)
     url[/:\/\/(.[^\/]+)/, 1]
   end
